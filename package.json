@@ -5,6 +5,7 @@
   "description": "A browser chatbot with local intent recognition and optional general AI answers.",
   "scripts": {
     "train": "node scripts/train-model.js",
-    "serve": "npx serve . -l 4173"
+    "serve": "npx serve . -l 4173",
+    "dev": "npx netlify-cli dev"
   }
 }

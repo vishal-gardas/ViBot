@@ -100,7 +100,7 @@ async function reply(text) {
         history.push({ role: 'assistant', content: answer }); 
     } catch (error) { 
         pending.querySelector('p').textContent = error.message; 
-        pending.querySelector('small').textContent = 'SETUP REQUIRED'; 
+        pending.querySelector('small').textContent = 'ERROR'; 
     } 
     isProcessing = false;
     syncStatus();
